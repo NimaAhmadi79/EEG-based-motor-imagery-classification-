@@ -1,0 +1,5 @@
+httpsgithub.comtaki0112SENet-TensorflowblobmasterSE_Inception_resnet_v2.py
+
+https://www.tensorflow.org/api_docs/python/tfm/vision/layers/SqueezeExcitation
+
+https://github.com/titu1994/keras-squeeze-excite-network/blob/master/keras_squeeze_excite_network/se.py
