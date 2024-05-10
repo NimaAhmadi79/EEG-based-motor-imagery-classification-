@@ -11,8 +11,8 @@ import pandas as pd
 
 def event_position():
 
-    filenames = ["A01T.gdf", "A02T.gdf"]#, "A01E.gdf", "A02E.gdf","A03T.gdf","A03E.gdf","A04T.gdf","A04E.gdf","A05T.gdf","A05E.gdf","A06T.gdf","A06E.gdf","A07T.gdf","A07E.gdf","A08T.gdf","A08E.gdf","A09T.gdf","A09E.gdf"
-    labels = ["A01T", "A02T"]#, "A01E", "A02E","A03T","A03E","A04T","A04E","A05T","A05E","A06T","A06E","A07T","A07E","A08T","A08E","A09T","A09E"]
+    filenames = ["A01T.gdf", "A02T.gdf","A03T.gdf","A04T.gdf"]#, "A01E.gdf", "A02E.gdf","A03E.gdf","A04E.gdf","A05T.gdf","A05E.gdf","A06T.gdf","A06E.gdf","A07T.gdf","A07E.gdf","A08T.gdf","A08E.gdf","A09T.gdf","A09E.gdf"
+    labels = ["A01T", "A02T","A03T","A04T"]#, "A01E", "A02E","A03E","A04E","A05T","A05E","A06T","A06E","A07T","A07E","A08T","A08E","A09T","A09E"]
 
 
     events_with_labels_arrays = {}
@@ -50,8 +50,8 @@ def event_position():
 
 def save_data_in_array():
 
-    filenames = ["A01T.gdf","A02T.gdf"]# , "A01E.gdf", "A02E.gdf","A03T.gdf","A03E.gdf","A04T.gdf","A04E.gdf","A05T.gdf","A05E.gdf","A06T.gdf","A06E.gdf","A07T.gdf","A07E.gdf","A08T.gdf","A08E.gdf","A09T.gdf","A09E.gdf"
-    labels = ["A01T", "A02T"]# , "A01E", "A02E","A03T","A03E","A04T","A04E","A05T","A05E","A06T","A06E","A07T","A07E","A08T","A08E","A09T","A09E"
+    filenames = ["A01T.gdf","A02T.gdf","A03T.gdf","A04T.gdf"]# , "A01E.gdf", "A02E.gdf","A03E.gdf","A04E.gdf","A05T.gdf","A05E.gdf","A06T.gdf","A06E.gdf","A07T.gdf","A07E.gdf","A08T.gdf","A08E.gdf","A09T.gdf","A09E.gdf"
+    labels = ["A01T", "A02T","A03T","A04T"]# , "A01E", "A02E","A03E","A04E","A05T","A05E","A06T","A06E","A07T","A07E","A08T","A08E","A09T","A09E"
 
 
     # Create a dictionary to store data arrays
@@ -78,7 +78,7 @@ def save_data_in_array():
 
 
 def create_training_data(data_arrays,events_with_labels_arrays):
-    labels = ["A01T","A02T"] #, "A03T","A04T","A05T","A06T","A07T","A08T","A09T"
+    labels = ["A01T","A02T","A03T","A04T"] #,"A05T","A06T","A07T","A08T","A09T"
 
     X_train=[]
 
