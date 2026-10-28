@@ -1,4 +1,35 @@
-/pakages
+# ---- Dataset (BCI Competition IV 2a — obtain separately, see data/README.md) ----
+datasets/
 /datasets
-/9a6f43742a7c1f2cdb24664af3e37020.pdf
-/main/2aExcel
+*.gdf
+*.mat
+# The small per-subject event tables under data/2aEvents/ ARE committed on purpose.
+
+# ---- Large / regenerable artifacts ----
+packages/
+pakages/        # (legacy misspelled folder from the original project)
+*.pdf
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# ---- Misc scratch ----
+*.log
+New Text Document*.txt

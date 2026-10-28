@@ -1,0 +1,21 @@
+# Core deep learning (project was developed on Python 3.8, TensorFlow 2.x / Keras)
+tensorflow>=2.8,<2.13
+keras>=2.8
+
+# Numerical / data
+numpy>=1.21
+pandas>=1.3
+scipy>=1.7
+scikit-learn>=1.0
+
+# EEG / signal I/O
+mne>=1.0          # reads the BCI IV 2a .gdf files
+easygdf>=0.1      # GDF helper used during data loading
+
+# Plotting
+matplotlib>=3.5
+
+# Optional — only needed to launch a VS Code server inside Colab (not required to
+# run the model). Safe to skip; remove the `from colabcode import ColabCode`
+# import in main.ipynb if you are not using it.
+# colabcode
